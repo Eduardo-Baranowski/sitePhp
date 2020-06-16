@@ -1,0 +1,1 @@
+web: vendor/bin/laravel6composer public/

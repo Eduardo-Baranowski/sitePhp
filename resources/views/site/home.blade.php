@@ -24,7 +24,7 @@
             }
             ?>
             <p>Criamos seu site profissional. Desenvolvemos os serviços nessários para uma boa usabilidade com o que você deseja trabalhar.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <p><a class="btn btn-lg btn-primary" href="/contato" role="button">Saiba mais</a></p>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
           <div class="carousel-caption">
             <h1>Criação de Lojas Virtuais.</h1>
             <p>Auxiliamos na criação de sua loja virtual, possibilitando a integração com os principais meios de pagamento online.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <p><a class="btn btn-lg btn-primary" href="/contato" role="button">Saiba mais</a></p>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@
           <div class="carousel-caption text-right">
             <h1>Consultoria</h1>
             <p>Realizamos consultoria para melhorar o desempenho de seu site. Trabalhamos para tornar seu site seguro e rentável.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <p><a class="btn btn-lg btn-primary" href="/contato" role="button">Saiba mais</a></p>
           </div>
         </div>
       </div>
@@ -69,22 +69,22 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="dev.jpeg"  width="200" height="200" alt="Generic placeholder image" width="140" height="140">
         <h2>Desenvolvimento</h2>
         <p>Desenvolvemos seu site com diversoes frameworks de sua preferência e auxiliamos com sua hospedagem.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/contato" role="button">Saiba mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="frameworks.png"  width="200" height="200" alt="Generic placeholder image" width="140" height="140">
         <h2>Frameworks</h2>
         <p>Utilizamos Django, Spring, Laravel, Node.js, entre outras.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/contato" role="button">Saiba mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <img class="rounded-circle" src="software.jpg"  width="200" height="200" alt="Generic placeholder image" width="140" height="140">
         <h2>Aplicações</h2>
         <p>Desenvolvemos o software que você necessita nas mais variadas linguagens de programação de acordo com sua necessidade, desde Java, Python, C e outras.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="/contato" role="button">Saiba mais &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 

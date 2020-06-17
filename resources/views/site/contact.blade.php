@@ -6,37 +6,30 @@
 
   <h1 class="display-4">Contato</h1>  
   <hr class="my-4">
-  <p class="lead">Trabalhamos para desenvolver o seu site. Onde você estiver nós chegamos até você. O Studio It está disponível para desenvolver o seu site por um preço acessível.</p>
+  <p class="lead">Trabalhamos para desenvolver o seu site. Onde você estiver nós chegamos até você.  Desenvolvemos o seu site por um preço acessível.</p>
 </div>
 </div>
 <div class="container py-5">
-<form>
-
+  @include('partials.messages')
+<form action="{{route('contact.send')}}" method="POST">
+  {{ csrf_field ()}}
   <div class="form-group">
     <label>Nome</label>
-    <input type="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="Seu Nome">
-    <small id="nome" class="form-text text-muted"></small>
+    <input type="text" class="form-control" name="nome" aria-describedby="nome" placeholder="Seu Nome">
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label>Email address</label>
+    <input type="text" class="form-control" name="email" aria-describedby="email" placeholder="Enter email">
   </div>
   <div class="form-group">
     <label>Telefone</label>
-    <input type="telefone" class="form-control" id="telefone" aria-describedby="telefone" placeholder="Seu Telefone">
-    <small id="telefone" class="form-text text-muted"></small>
+    <input type="text" class="form-control" name="telefone" aria-describedby="telefone" placeholder="Seu Telefone">
   </div>
   <div class="form-group">
     <label>O que procura</label>
-    <input type="descricao" class="form-control" id="nome" aria-describedby="descricao" placeholder="O que procura?">
-    <small id="descricao" class="form-text text-muted"></small>
+    <input type="text" class="form-control" name="descricao" aria-describedby="descricao" placeholder="O que procura?">
   </div>    
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-success" role="button">Submit</button>
 </form>
 </div>
 @endsection

@@ -9,7 +9,10 @@ use App\User;
 class UserController extends Controller
 {
     private $usuario;
-
+    public function __construct(User $usuario)
+    {
+        $this->usuario = $usuario;
+    }
 
     public function store(Request $request)
     {

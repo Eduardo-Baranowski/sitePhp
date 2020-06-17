@@ -13,7 +13,7 @@
         <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
         <div class="container">
           <div class="carousel-caption text-left">
-            <h1>Example headline.</h1>
+            <h1>Criação De Site Profissional.</h1>
             <?php
             if (date('H') >= 0 && date('H')<=12){
               echo "<p>Bom dia!</p>";
@@ -23,7 +23,7 @@
               echo "<p>Boa noite!</p>";
             }
             ?>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>Criamos seu site profissional. Desenvolvemos os serviços nessários para uma boa usabilidade com o que você deseja trabalhar.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
           </div>
         </div>
@@ -32,8 +32,8 @@
         <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Criação de Lojas Virtuais.</h1>
+            <p>Auxiliamos na criação de sua loja virtual, possibilitando a integração com os principais meios de pagamento online.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
           </div>
         </div>
@@ -42,8 +42,8 @@
         <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <h1>Consultoria</h1>
+            <p>Realizamos consultoria para melhorar o desempenho de seu site. Trabalhamos para tornar seu site seguro e rentável.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
           </div>
         </div>
@@ -70,14 +70,14 @@
     <div class="row">
       <div class="col-lg-4">
         <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <h2>Desenvolvimento</h2>
+        <p>Desenvolvemos seu site com diversoes frameworks de sua preferência e auxiliamos com sua hospedagem.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <h2>Frameworks</h2>
+        <p>Utilizamos Django, Spring, Laravel, Node.js, entre outras.</p>
         <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">

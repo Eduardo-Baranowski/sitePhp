@@ -11,6 +11,7 @@
 |
 */
 
+use App\Mail\ContactMail;
 use Illuminate\Support\Facades\Mail;
 
 Route::get('/', function () {
@@ -31,4 +32,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Route::get('/contato', 'HomeController@index');
-Route::post('/contato', 'HomeController@store')->name('contact.send');
+Route::post('/contato', 'HomeController@postContact')->name('contact.send');
+
+Route::get('envio-email', function () {
+
+    $user = new stdClass();
+    $user->nome = 'Site';
+    $user->email = 'eduardobaranowskiteste@gmail.com';
+    //return new ContactMail($user);
+    Mail::send(new ContactMail($user));
+});

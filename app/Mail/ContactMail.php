@@ -2,10 +2,13 @@
 
 namespace App\Mail;
 
+use App\User;
+use Faker\Provider\ar_JO\Address;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use stdClass;
 
 class ContactMail extends Mailable
 {
@@ -28,7 +31,8 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('site.contact')->with([
+
+        return $this->view('emails.contact')->with([
             'nome' => $this->inputs['nome'],
             'email' => $this->inputs['email'],
             'telefone' => $this->inputs['telefone'],

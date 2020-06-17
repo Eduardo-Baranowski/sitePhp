@@ -135,7 +135,8 @@ body {
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; <?=date('Y') ?> Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; <?=date('Y') ?> &middot; <a href="#"><span class="text-muted">Desenvolvido por Eduardo Baranowski.</span></a></p>
+      
     </footer>
   </main>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

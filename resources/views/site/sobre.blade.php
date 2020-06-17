@@ -8,11 +8,12 @@
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <h2 class="featurette-heading">Missão <span class="text-muted"></span></h2>
+    <p class="lead">Auxiliar pessoas a possuírem seu próprio site de maneira ágil e eficiente, produzindo uma tecnologia de qualidade.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="missao.png"  width="100" height="100"  alt="Generic placeholder image">
+    
   </div>
 </div>
 
@@ -20,11 +21,11 @@
 
 <div class="row featurette">
   <div class="col-md-7 order-md-2">
-    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <h2 class="featurette-heading">Visão</span></h2>
+    <p class="lead">Poder entregar os serviços oferecidos sendo refência para produção de sites.</p>
   </div>
   <div class="col-md-5 order-md-1">
-    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="visao.png"  width="100" height="100"  alt="Generic placeholder image">
   </div>
 </div>
 
@@ -32,11 +33,11 @@
 
 <div class="row featurette">
   <div class="col-md-7">
-    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <h2 class="featurette-heading">Valores <span class="text-muted"></span></h2>
+    <p class="lead">Possar confiança para quem procura um serviço de criação de sites.</p>
   </div>
   <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    <img class="featurette-image img-fluid mx-auto" src="valores.png"  width="100" height="100"   alt="Generic placeholder image">
   </div>
 </div>
 

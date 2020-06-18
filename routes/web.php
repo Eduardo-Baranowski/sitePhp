@@ -22,7 +22,7 @@ Route::get('/cursos', function () {
     return view('site.sobre');
 })->name('site.sobre');;
 
-Route::get('contato', function () {
+Route::get('/contato', function () {
     return view('site.contact');
 })->name('site.contact');;
 
@@ -32,13 +32,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Route::get('/contato', 'HomeController@index');
-Route::post('contato', 'HomeController@postContact')->name('contact.send');
-
-Route::get('envio-email', function () {
-
-    $user = new stdClass();
-    $user->nome = 'Site';
-    $user->email = 'eduardobaranowskiteste@gmail.com';
-    //return new ContactMail($user);
-    Mail::send(new ContactMail($user));
-});
+Route::post('/contato', 'HomeController@postContact')->name('contact.send');

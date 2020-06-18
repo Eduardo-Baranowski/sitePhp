@@ -22,7 +22,7 @@ Route::get('/cursos', function () {
     return view('site.sobre');
 })->name('site.sobre');;
 
-Route::get('/contato', function () {
+Route::get('contato', function () {
     return view('site.contact');
 })->name('site.contact');;
 
@@ -32,7 +32,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Route::get('/contato', 'HomeController@index');
-Route::post('/contato', 'HomeController@postContact')->name('contact.send');
+Route::post('contato', 'HomeController@postContact')->name('contact.send');
 
 Route::get('envio-email', function () {
 

@@ -33,6 +33,7 @@ class HomeController extends Controller
         ]);
 
         Mail::to('eduardobaranowski@gmail.com')->send(new ContactMail($fields));
-        return redirect()->route('contact.send');
+        //return redirect()->route('contact.send');
+        return redirect()->back();
     }
 }

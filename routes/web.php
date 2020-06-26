@@ -33,3 +33,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //Route::get('/contato', 'HomeController@index');
 Route::post('/contato', 'HomeController@postContact')->name('contact.send');
+
+Route::get('/portfolio', function () {
+    return view('site.portfolio');
+})->name('site.portfolio');

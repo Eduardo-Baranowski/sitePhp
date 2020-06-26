@@ -121,11 +121,11 @@ body {
           <li class="nav-item {{ (Route::current()->getName() === 'site.sobre' ? 'active' : '') }}">
             <a class="nav-link" href="{{ route('site.sobre')}}">Sobre</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link {{ (Route::current()->getName() === 'site.contact' ? 'active' : '') }}" href="{{ route('site.contact')}}">Contato</a>
+          <li class="nav-item {{ (Route::current()->getName() === 'site.contact' ? 'active' : '') }}">
+            <a class="nav-link" href="{{ route('site.contact')}}">Contato</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link {{ (Route::current()->getName() === 'site.portfolio' ? 'active' : '') }}" href="{{ route('site.portfolio')}}">Portfólio</a>
+          <li class="nav-item {{ (Route::current()->getName() === 'site.portfolio' ? 'active' : '') }}">
+            <a class="nav-link" href="{{ route('site.portfolio')}}">Portfólio</a>
           </li>
         </ul>
       </div>

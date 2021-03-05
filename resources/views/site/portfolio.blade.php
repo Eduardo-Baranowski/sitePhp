@@ -4,6 +4,31 @@
 <div class="container">
 <!-- START THE FEATURETTES -->
 
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Sites para Avaliação de Telemarketing Monitorado <span class="text-muted"></span></h2>
+            <p class="lead"></p>
+        </div>
+        <div class="col-md-5">
+            <a href="https://projectpaper.herokuapp.com/"><img class="featurette-image img-fluid mx-auto" src="paper.png"  width="400" height="400"  alt="Generic placeholder image"></a>
+
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Páginas de Órgãos e Federações <span class="text-muted"></span></h2>
+            <p class="lead"></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <a href="https://www.ftxchess.com.br/"><img class="featurette-image img-fluid mx-auto" src="ftxchess.png"  width="400" height="400"  alt="Generic placeholder image"></a>
+        </div>
+    </div>
+
 <hr class="featurette-divider">
 
 <div class="row featurette">
@@ -13,7 +38,7 @@
   </div>
   <div class="col-md-5">
     <a href="https://chessmater.herokuapp.com/"><img class="featurette-image img-fluid mx-auto" src="chess.png"  width="400" height="400"  alt="Generic placeholder image"></a>
-    
+
   </div>
 </div>
 
@@ -50,11 +75,11 @@
     </div>
     <div class="col-md-5">
         <a href="https://autorizadaademilarcarol.herokuapp.com/"><img class="featurette-image img-fluid mx-auto" src="perfilLavoro.png"  width="400" height="400"  alt="Generic placeholder image"></a>
-      
+
     </div>
   </div>
-  
-  
+
+
   <hr class="featurette-divider">
 
 <!-- /END THE FEATURETTES -->
